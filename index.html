@@ -281,14 +281,38 @@
     </div>
     -->
   
-    <section class="p-0" id="portfolio_teste">
+    <section class="p-0" id="portfolio_header">
       <div class="prt_container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Jogos</h2>
-            <hr class="my-4">
+        <div class="portfolio_header_div">
+          <div class="portfolio_header_item" id="label_jogos" onclick="toggleClass('jogos')">
+            <h2 class="section-heading" id="h2_jogos">Jogos</h2>
+            <hr class="disable-div" id="subline_jogos">
+          </div>
+          <div class="portfolio_header_item" id="label_web" onclick="toggleClass('web')">
+            <h2 class="section-heading" id="h2_web">Projetos Web</h2>
+            <hr class="disable-div" id="subline_web">
+          </div>
+          <div class="portfolio_header_item" id="label_acadêmicos" onclick="toggleClass('acadêmicos')">
+            <h2 class="section-heading" id="h2_acadêmicos">Projetos Acadêmicos</h2>
+            <hr class="disable-div" id="subline_acadêmicos">
           </div>
         </div>
+      </div>
+    </section>
+
+    <div class="disable-div" id="portfolio_empty">
+      <div class="prt_container">
+        <div class="prt_desc_item">
+          <h2><b>Clique</b> em uma das categorias acima para <b>exibir</b> os projetos.</h2>
+        </div>
+        <div class="prt_desc_item" id="label_empty">
+          <hr class="disable-div" id="subline_empty">
+        </div>
+      </div>
+    </div>
+
+    <div class="disable-div" id="portfolio_jogos">
+      <div class="prt_container">
         <div class="prt_desc_item">
           <h3>DIEGO.EXE</h3>
           <p>Jogo de survivor horror em primeira pessoa inspirado em "Slender: The Eight Pages". Todos os assets são autorais.</p>
@@ -365,18 +389,10 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
-    <br><br><br><br><br>
-
-    <section class="p-0" id="portfolio_teste">
+    <section class="disable-div" id="portfolio_web">
       <div class="prt_container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Projetos Web</h2>
-            <hr class="my-4">
-          </div>
-        </div>
         <div class="prt_desc_item">
           <h3>Plataforma Saberes Digitais</h3>
           <p>Plataforma de acompanhamento pessoal do aprendizado digital de alunos do ensino médio. Projeto de Conclusão de Curso.</p>
@@ -396,9 +412,27 @@
         </div>
 
         <div class="prt_desc_item">
+          <h3>Proffy</h3>
+          <p>Site de cadastro de professores e conexões respectivas com alunos. Projeto de aprendizado da Next Level Week #2.</p>
+          <p>Desenvolvido em: Node.js (Typescript), ReactJS e React Native.</p>
+          <a href="https://youtu.be/mUEi74LhX4o">Proffy (VÍDEO)</a>
+        </div>
+        <div class="prt_column">
+          <div class="prt_item">
+            <img src="img/portfolio/thumbnails/31.jpg">
+          </div>
+          <div class="prt_item">
+            <img src="img/portfolio/thumbnails/32.jpg">
+          </div>
+          <div class="prt_item">
+            <img src="img/portfolio/thumbnails/33.jpg">
+          </div>
+        </div>
+        
+        <div class="prt_desc_item">
           <h3>Be The Hero</h3>
           <p>Site de cadastro de ONGs e incidentes. Projeto de aprendizado da Semana Omnistack.</p>
-          <p>Desenvolvido em: Node.js (REST API), ReactJS e React Native.</p>
+          <p>Desenvolvido em: Node.js (Javascript), ReactJS e React Native.</p>
           <a href="https://www.youtube.com/watch?v=fCOV9uOgOUA">Be The Hero (VÍDEO)</a>
         </div>
         <div class="prt_column">
@@ -435,17 +469,7 @@
       </div>
     </section>
 
-    <br><br><br><br><br>
-
-    <section class="p-0" id="portfolio">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Projetos Acadêmicos</h2>
-            <hr class="my-4">
-          </div>
-        </div>
-      </div>
+    <section class="disable-div" id="portfolio_acadêmicos">
       <div class="container-fluid p-0">
         <div class="row no-gutters popup-gallery">
           <div class="col-lg-4 col-sm-6">
@@ -566,8 +590,6 @@
       
     </section>
 
-    <br><br><br><br><br>
-
     <section class="bg-dark text-white">
       <div class="container text-center">
         <h2 class="mb-4">Projetos Pessoais</h2>
@@ -626,3 +648,5 @@
   </body>
 
 </html>
+
+<script src="js/portfolio.js"></script>
