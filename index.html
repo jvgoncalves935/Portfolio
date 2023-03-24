@@ -32,7 +32,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Início</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -45,7 +45,10 @@
               <a class="nav-link js-scroll-trigger" href="#services">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+              <a class="nav-link js-scroll-trigger" href="#portfolio_jogos">Games</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio_header">Others</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -65,7 +68,7 @@
             <hr>
           </div>
           <div class="col-lg-8 mx-auto">
-            <p class="text-faded mb-5">Game Development teacher at SENAC Barbacena. Graduated in Computer Science at the Federal University of São João Del Rei. I like to program, create and play games, watch series and animes, edit videos and music in my spare time.</p>
+            <p class="text-faded mb-5"><b>Game Development teacher at SENAC Barbacena. Graduated in Computer Science at the Federal University of São João Del Rei. I like to program, create and play games, watch series and animes, edit videos, music and create my own stories in my spare time.</b></p>
             <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">About me</a>
           </div>
         </div>
@@ -105,6 +108,27 @@
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
+              <i class="iconrenpy"></i>
+              <h3 class="mb-3">Ren'py (Python)</h3>
+              <p class="text-muted mb-0">Advanced</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="iconpython"></i>
+              <h3 class="mb-3">Python</h3>
+              <p class="text-muted mb-0">Advanced</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="icongit"></i>
+              <h3 class="mb-3">Git/GitHub</h3>
+              <p class="text-muted mb-0">Intermediate</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
               <i class="iconjava"></i>
               <h3 class="mb-3">Java</h3>
               <p class="text-muted mb-0">Advanced</p>
@@ -115,13 +139,6 @@
               <i class="iconandroid"></i>
               <h3 class="mb-3">Android Studio</h3>
               <p class="text-muted mb-0">Intermediate/Advanced</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="iconpython"></i>
-              <h3 class="mb-3">Python</h3>
-              <p class="text-muted mb-0">Advanced</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
@@ -203,13 +220,6 @@
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="icongit"></i>
-              <h3 class="mb-3">Git</h3>
-              <p class="text-muted mb-0">Intermediate</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
               <i class="iconhtml"></i>
               <h3 class="mb-3">HTML</h3>
               <p class="text-muted mb-0">Intermediate</p>
@@ -227,13 +237,6 @@
               <i class="iconcss"></i>
               <h3 class="mb-3">CSS</h3>
               <p class="text-muted mb-0">Beginner/Intermediate</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="iconrenpy"></i>
-              <h3 class="mb-3">Ren'py (Python)</h3>
-              <p class="text-muted mb-0">Advanced</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
@@ -280,38 +283,12 @@
 
     </div>
     -->
-  
-    <section class="p-0" id="portfolio_header">
-      <div class="prt_container">
-        <div class="portfolio_header_div">
-          <div class="portfolio_header_item" id="label_jogos" onclick="toggleClass('jogos')">
-            <h2 class="section-heading" id="h2_jogos">Game</h2>
-            <hr class="disable-div" id="subline_jogos">
-          </div>
-          <div class="portfolio_header_item" id="label_web" onclick="toggleClass('web')">
-            <h2 class="section-heading" id="h2_web">Web Projects</h2>
-            <hr class="disable-div" id="subline_web">
-          </div>
-          <div class="portfolio_header_item" id="label_acadêmicos" onclick="toggleClass('acadêmicos')">
-            <h2 class="section-heading" id="h2_acadêmicos">Academic Projects</h2>
-            <hr class="disable-div" id="subline_acadêmicos">
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <div class="disable-div" id="portfolio_empty">
-      <div class="prt_container">
-        <div class="prt_desc_item">
-          <h2><b>Click</b> in one of the categories above to <b>show</b> my projects.</h2>
-        </div>
-        <div class="prt_desc_item" id="label_empty">
-          <hr class="disable-div" id="subline_empty">
-        </div>
+    <div class="prt_container" id="portfolio_jogos">
+      <div class="col-lg-8 mx-auto text-center">
+        <h2 class="section-heading">Game Projects</h2>
+        <hr class="my-4">
       </div>
-    </div>
-
-    <div class="disable-div" id="portfolio_jogos">
       <div class="prt_container">
         <div class="prt_desc_item">
           <h3>PROFANO</h3>
@@ -333,11 +310,24 @@
           </div>
         </div>
 
+        <div class="prt_column">
+          <div class="prt_item">
+            <img src="img/portfolio/thumbnails/40.jpg">
+          </div>
+          <div class="prt_item">
+            <img src="img/portfolio/thumbnails/41.jpg">
+          </div>
+          <div class="prt_item">
+            <img src="img/portfolio/thumbnails/42.jpg">
+          </div>
+        </div>
+
 
         <div class="prt_desc_item">
           <h3>Visions</h3>
           <p>First-person survival horror game inspired by "Slender: The Eight Pages". Fully original assets.</p>
-          <p>WIP. Will be published on Steam, planed to be publish on Xbox Live.</p>
+          <p>WIP.</p>
+          <p>Will be published on Steam, planed to be publish on Xbox Live.</p>
           <p>Developed in: Unity3D</p>
           <a href="https://www.youtube.com/watch?v=6Czf4hFNiUs">Visions v1.2.1 (Prototype): (GAMEPLAY)</a>
         </div>
@@ -353,9 +343,56 @@
           </div>
         </div>
 
+        <div class="prt_column">
+          <div class="prt_item">
+            <img src="img/portfolio/thumbnails/43.jpg">
+          </div>
+          <div class="prt_item">
+            <img src="img/portfolio/thumbnails/44.jpg">
+          </div>
+          <div class="prt_item">
+            <img src="img/portfolio/thumbnails/45.jpg">
+          </div>
+        </div>
+        
+        <div class="prt_desc_item">
+          <h3>Forbidden Memories G</h3>
+          <p>Yu-Gi-Oh: Forbidden Memories" PS1 clone game from a mod of the Visual Novel "Doki Doki Literature Club!". Programming, game design, image editing, videos and music.</p>
+          <p>Humor game including adult memes. Free non-profit game.</p>
+          <p>All rights reserved to Konami and Team Salvato.</p>
+          <p>WIP.</p>
+          <p>Developed in: Ren'Py</p>
+          <a href="https://youtu.be/Cd3LIfyV8q4">Forbidden Memories G - DEMO 1 (Safe For Work Version)</a>
+          <a href="https://youtu.be/OtHK_6KFCbA">Forbidden Memories G - DEMO 1 (NOT Safe For Work Version)</a>
+          <a href="https://www.youtube.com/watch?v=i0E_NmPMi-Q">Forbidden Memories G - DEMO 2 (NOT Safe For Work)</a>
+        </div>
+        <div class="prt_column">
+          <div class="prt_item">
+            <img src="img/portfolio/thumbnails/35.jpg">
+          </div>
+          <div class="prt_item">
+            <img src="img/portfolio/thumbnails/36.jpg">
+          </div>
+          <div class="prt_item">
+            <img src="img/portfolio/thumbnails/51.jpg">
+          </div>
+        </div>
+
+        <div class="prt_column">
+          <div class="prt_item">
+            <img src="img/portfolio/thumbnails/52.jpg">
+          </div>
+          <div class="prt_item">
+            <img src="img/portfolio/thumbnails/53.jpg">
+          </div>
+          <div class="prt_item">
+            <img src="img/portfolio/thumbnails/34.jpg">
+          </div>
+        </div>
+
         <div class="prt_desc_item">
           <h3>Yuri's Melancholy</h3>
-          <p>Mod of the Visual Novel "Doki Doki Literature Club!". Art, story, and some authorial music.</p>
+          <p>Mod of the Visual Novel "Doki Doki Literature Club!". Art, story, and some original music.</p>
           <p>WIP.</p>
           <p>Developed in: Ren'Py</p>
           <a href="https://drive.google.com/open?id=1C4Jvucbv_ehi2nSBcDXOZ7RmSI4BbWQv">Yuri's Melancholy: Partial progress of the original game art (LINK)</a>
@@ -365,32 +402,22 @@
             <img src="img/portfolio/thumbnails/9.jpg">
           </div>
           <div class="prt_item">
-            <img src="img/portfolio/thumbnails/19.jpg">
+            <img src="img/portfolio/thumbnails/46.jpg">
           </div>
           <div class="prt_item">
-            <img src="img/portfolio/thumbnails/20.jpg">
+            <img src="img/portfolio/thumbnails/47.jpg">
           </div>
         </div>
 
-        <div class="prt_desc_item">
-          <h3>Forbidden Memories G</h3>
-          <p>Yu-Gi-Oh: Forbidden Memories" PS1 clone game from a mod of the Visual Novel "Doki Doki Literature Club!". Programming, game design, image editing, videos and music.</p>
-          <p>Humor game including adult memes.</p>
-          <p>WIP.</p>
-          <p>Developed in: Ren'Py</p>
-          <a href="https://youtu.be/Cd3LIfyV8q4">Forbidden Memories G - DEMO 1 (Safe For Work Version)</a>
-          <a href="https://youtu.be/OtHK_6KFCbA">Forbidden Memories G - DEMO 1 (NOT Safe For Work Version)</a>
-          <a href="https://www.youtube.com/watch?v=i0E_NmPMi-Q">Forbidden Memories G - DEMO 2 (NOT Safe For Work)</a>
-        </div>
         <div class="prt_column">
           <div class="prt_item">
-            <img src="img/portfolio/thumbnails/34.jpg">
+            <img src="img/portfolio/thumbnails/48.jpg">
           </div>
           <div class="prt_item">
-            <img src="img/portfolio/thumbnails/35.jpg">
+            <img src="img/portfolio/thumbnails/49.jpg">
           </div>
           <div class="prt_item">
-            <img src="img/portfolio/thumbnails/36.jpg">
+            <img src="img/portfolio/thumbnails/50.jpg">
           </div>
         </div>
         
@@ -413,6 +440,18 @@
           </div>
         </div>
 
+        <div class="prt_column">
+          <div class="prt_item">
+            <img src="img/portfolio/thumbnails/54.jpg">
+          </div>
+          <div class="prt_item">
+            <img src="img/portfolio/thumbnails/55.jpg">
+          </div>
+          <div class="prt_item">
+            <img src="img/portfolio/thumbnails/56.jpg">
+          </div>
+        </div>
+
         <div class="prt_desc_item">
           <h3>Fallen: Event Horizon</h3>
           <p>Extra chapter for the "Fallen" game.</p>
@@ -430,6 +469,108 @@
           <div class="prt_item">
             <img src="img/portfolio/thumbnails/15.jpg">
           </div>
+        </div>
+
+        <div class="prt_column">
+          <div class="prt_item">
+            <img src="img/portfolio/thumbnails/57.jpg">
+          </div>
+          <div class="prt_item">
+            <img src="img/portfolio/thumbnails/58.jpg">
+          </div>
+          <div class="prt_item">
+            <img src="img/portfolio/thumbnails/59.jpg">
+          </div>
+        </div>
+
+        <div class="prt_desc_item">
+          <h3>(Miscellaneous Projects)</h3>
+          <p>Other psychological horror game projects.</p>
+          <p>Concept Arts, Game Design and Storytelling ideas.</p>
+        </div>
+        <div class="prt_column">
+          <div class="prt_item">
+            <img src="img/portfolio/thumbnails/60.jpg">
+          </div>
+          <div class="prt_item">
+            <img src="img/portfolio/thumbnails/61.jpg">
+          </div>
+          <div class="prt_item">
+            <img src="img/portfolio/thumbnails/62.jpg">
+          </div>
+        </div>
+
+        <div class="prt_column">
+          <div class="prt_item">
+            <img src="img/portfolio/thumbnails/63.jpg">
+          </div>
+          <div class="prt_item">
+            <img src="img/portfolio/thumbnails/64.jpg">
+          </div>
+          <div class="prt_item">
+            <img src="img/portfolio/thumbnails/65.jpg">
+          </div>
+        </div>
+
+        <div class="prt_column">
+          <div class="prt_item">
+            <img src="img/portfolio/thumbnails/66.jpg">
+          </div>
+          <div class="prt_item">
+            <img src="img/portfolio/thumbnails/67.jpg">
+          </div>
+          <div class="prt_item">
+            <img src="img/portfolio/thumbnails/68.jpg">
+          </div>
+        </div>
+
+        <div class="prt_column">
+          <div class="prt_item">
+            <img src="img/portfolio/thumbnails/69.jpg">
+          </div>
+          <div class="prt_item">
+            <img src="img/portfolio/thumbnails/70.jpg">
+          </div>
+          <div class="prt_item">
+            <img src="img/portfolio/thumbnails/71.jpg">
+          </div>
+        </div>
+
+        <div class="prt_column">
+          <div class="prt_item">
+            <img src="img/portfolio/thumbnails/72.jpg">
+          </div>
+        </div>
+
+      </div>
+      <div class="prt_container">
+        <br/><br/><br/><br/><br/><br/><br/><br/>
+      </div>
+
+    </div>
+
+    <section class="p-0" id="portfolio_header">
+      <div class="prt_container">
+        <div class="portfolio_header_div">
+          <div class="portfolio_header_item" id="label_web" onclick="toggleClass('web')">
+            <h2 class="section-heading" id="h2_web">Web Projects</h2>
+            <hr class="disable-div" id="subline_web">
+          </div>
+          <div class="portfolio_header_item" id="label_acadêmicos" onclick="toggleClass('acadêmicos')">
+            <h2 class="section-heading" id="h2_acadêmicos">Academic Projects</h2>
+            <hr class="disable-div" id="subline_acadêmicos">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="disable-div" id="portfolio_empty">
+      <div class="prt_container">
+        <div class="prt_desc_item">
+          <h2><b>Click</b> in one of the categories above to <b>show</b> my projects.</h2>
+        </div>
+        <div class="prt_desc_item" id="label_empty">
+          <hr class="disable-div" id="subline_empty">
         </div>
       </div>
     </div>
@@ -633,17 +774,18 @@
       
     </section>
 
-    <section class="bg-dark text-white">
+    <section class="row">
       <div class="container text-center">
-        <h2 class="mb-4">Personal Projects</h2>
-		<p class="text-faded mb-5"><a href="https://vnx.uvnworks.com/2019/03/traducao-steinsgate-lancada/">PT-BR Translation of the Game: "Steins;Gate"</a></br>
+        <h2 class="section-heading">Personal Projects</h2>
+        <hr class="my-4">
+		           <p class="mb-5">PT-BR Translation of the Game: "Steins;Gate" <a href="https://vnx.uvnworks.com/2019/03/traducao-steinsgate-lancada/">(LINK)</a></br>
                                PT-BR Translation of the Game: "Steins;Gate 0". WIP.</br>
-                               <a href="https://vnx.uvnworks.com/doki-doki-literature-club/">PT-BR Translation of the Game: "Doki Doki Literature Club!"</a></br>
-                               <a href="https://vnx.uvnworks.com/reflexia-prototype-ver/">PT-BR Translation of the Game: "REFLEXIA Proptotype Ver."</a></br>
+                               PT-BR Translation of the Game: "Doki Doki Literature Club!" <a href="https://vnx.uvnworks.com/doki-doki-literature-club/">(LINK)</a></br>
+                               PT-BR Translation of the Game: "REFLEXIA Proptotype Ver." <a href="https://vnx.uvnworks.com/reflexia-prototype-ver/">(LINK)</a></br>
                                English Translation of the Game: "Yuri's Melancholy". WIP.</br>
-                               <a href="https://www.youtube.com/channel/UCbTDLFMSrmfPrEIQkZTbdDw">YouTube Channel: "Master Exploder"</a></br>
-                               <a href="https://www.youtube.com/channel/UCo2WgHAO26fxSo_YV86FGQw">YouTube Channel: "Converting Minds"</a></br>
-                               <a href="https://www.youtube.com/channel/UCIstM3ReR5wsFg8IGhfpVVw">YouTube Channel: "Converting Minds: VNX+"</a></p>
+                               YouTube Channel: "Master Exploder" <a href="https://www.youtube.com/channel/UCbTDLFMSrmfPrEIQkZTbdDw">(LINK)</a></br>
+                               YouTube Channel: "Converting Minds" <a href="https://www.youtube.com/channel/UCo2WgHAO26fxSo_YV86FGQw">(LINK)</a></br>
+                               YouTube Channel: "Converting Minds: VNX+" <a href="https://www.youtube.com/channel/UCIstM3ReR5wsFg8IGhfpVVw">(LINK)</a></p>
       </div>
     </section>
 
@@ -657,26 +799,34 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-4 ml-auto text-center">
-            <i class="fas fa-phone fa-3x mb-3 sr-contact-1"></i>
-            <p>(32) 98429-6790</p>
-          </div>
           <div class="col-lg-4 mr-auto text-center">
             <i class="fas fa-envelope fa-3x mb-3 sr-contact-2"></i>
             <p>
-              <a href="mailto:jvgoncalves935@hotmail.com">jvgoncalves935@hotmail.com</a>
+              Email: <a href="mailto:jvgoncalves935@hotmail.com">jvgoncalves935@hotmail.com</a>
             </p>
           </div>
           <div class="col-lg-4 mr-auto text-center">
             <i class="fas fa-envelope fa-3x mb-3 sr-contact-2"></i>
             <p>
-              <a href="https://www.facebook.com/joaovitor.goncalves.948">Facebook: João Vítor Gonçalves</a>
+              Facebook: <a href="https://www.facebook.com/joaovitor.goncalves.948">João Vítor Gonçalves</a>
             </p>
           </div>
 		      <div class="col-lg-4 mr-auto text-center">
             <i class="icongithub"></i>
             <p>
-              <a href="https://github.com/jvgoncalves935">https://github.com/jvgoncalves935</a>
+              GitHub: <a href="https://github.com/jvgoncalves935">https://github.com/jvgoncalves935</a>
+            </p>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <i class="icondiscord"></i>
+            <p>
+              Discord: Master Exploder#8670</a>
+            </p>
+          </div>
+          <div class="col-lg-4 ml-auto text-center">
+            <i class="fas fa-phone fa-3x mb-3 sr-contact-1"></i>
+            <p>
+              Phone: +55(32)98429-6790
             </p>
           </div>
         </div>
